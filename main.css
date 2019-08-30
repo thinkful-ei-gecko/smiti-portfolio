@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     text-decoration: none;
-    list-style-type: none;
     margin: 0;
     padding: 0;
     
@@ -32,13 +31,20 @@
     z-index: 10;
   }
   
-  .nav-ul {
-    
+  ul {
+    list-style-type: none;
     margin-right: 15px;
-  
-    
-    
   }
+
+
+  .chemistryquiz-image{
+    border-radius: 8px;
+  }
+
+  p{
+    padding: 10px;
+  }
+
   h3{
     float: left;
     margin-left: 15px;
@@ -66,10 +72,8 @@
   section:nth-child(even) {
     background-color: #ddd;
   }
-
-
+  
   .footer-ul{
     display: inline-block;
     margin: 0 10px;
   }
-  
