@@ -56,7 +56,9 @@
     padding: 20px;
     text-align: center;
   }
-  
+  p{
+    font-size: 18px;
+  }
 
   ul {
     list-style-type: none;
@@ -64,14 +66,24 @@
   }
 
 
+  h4{
+    margin-bottom: 10px;
+  }
+
+
   .chemistryquiz-image{
     border-radius: 8px;
+    border: 1px solid black;
   }
+
 
   p{
     padding: 10px;
   }
 
+  .project-button{
+    margin: 0 20px;
+  }
   h3{
     float: left;
     margin-left: 15px;
