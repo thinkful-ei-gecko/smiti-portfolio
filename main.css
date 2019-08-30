@@ -3,10 +3,7 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
     
-=======
->>>>>>> 068198663b930120795082cfa871801e3dab4434
   }
   
   body {
@@ -32,10 +29,7 @@
 
   nav {
     font-size: 16px;
-<<<<<<< HEAD
-=======
     border-bottom: solid;
->>>>>>> 068198663b930120795082cfa871801e3dab4434
     display: inline-block;
     position: fixed;
     top: 0;
@@ -114,13 +108,11 @@
     margin: 0 10px;
     
   }
-<<<<<<< HEAD
   
   .footer-ul{
     display: inline-block;
     margin: 0 10px;
   }
-=======
 
   .contact-icon {
     vertical-align: middle;
@@ -128,4 +120,3 @@
     height: 40px;
     margin: 0 20px;
 }
->>>>>>> 068198663b930120795082cfa871801e3dab4434
