@@ -6,7 +6,7 @@ $("a[href^='#']").click(function(e) {
 
   $('body, html').animate({
     scrollTop: position
-  } /* speed */ );
+  });
 });
 
 //About Me and Project Scroll Feature
