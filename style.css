@@ -64,14 +64,19 @@ section {
 
   }
 
-button{
+.button {
     color: black;
     background-color: white;
     border: 2px solid black;
     padding: 20px;
     text-align: center;
+
 }
 /* section2 */
+
+#section2{
+  padding-bottom: 30px; 
+}
 p{
     font-size: 18px;
     padding: 10px;
@@ -87,27 +92,30 @@ h4{
 }
 
 .project-button{
-    margin: 0 20px;
+    padding: 5px;
 }
+
+
+
 
 .nav-h3, .sec-h3{
     float: left;
     margin-left: 1px;
 }
 .section-ul{
-    height: 100px;
+    height: 100%;
     border: 1px solid black;
 }
   
-.section2-ul ul{   
-    list-style-type: none;
-    margin: 0 10px 20px 20px;
+.section2-ul{   
+    padding: 20px;
+    margin-right: 20px;
 }
 .sec2-li{
-    margin: 0 10px;
+    padding: 10px;
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 }
   
 .section2-icon {
@@ -150,10 +158,9 @@ h4{
         margin-left:10px;
     }
 
-    .project-button{
-        margin-left:0px;
-        margin-right:0px;
-    }
+
+
+    
 }
 
 @media screen and (min-width: 730px){
@@ -161,10 +168,15 @@ h4{
     .sec2-li{
         margin: 0 60px 10px 10px;
         display: inline-block;
-        height: 30px;
+    
     }
 
     .project-button{
         margin-left: 30px;
+        padding: 5px;
+    }
+
+    .section2-ul{   
+        padding-top: 30px;
     }
 }
