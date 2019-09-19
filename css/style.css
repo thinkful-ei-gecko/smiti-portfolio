@@ -63,6 +63,8 @@ section {
   }
 
 
+
+
 .button {
     color: black;
     background-color: white;
@@ -70,7 +72,12 @@ section {
     padding: 20px;
     text-align: center;
     font-size: 16px;
+}
 
+.button:hover {
+    background-color: rgb(116, 149, 179);
+    color: white;
+    
 }
 /* section2 */
 
@@ -88,10 +95,8 @@ h4{
     display: bold;
 }
 .chemistryquiz-image{
-    
+    width: 100%;
     border: 2px solid black;
-    width:220px;
-    height:190px;;
 }
 
 .project-button{
@@ -196,5 +201,10 @@ footer {
 
     .section2-ul{   
         padding-top: 30px;
+    }
+
+    .chemistryquiz-image{
+        width: 50%;
+        border: 2px solid black;
     }
 }
