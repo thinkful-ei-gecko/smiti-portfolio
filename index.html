@@ -1,53 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>HTML wireframe</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Portfolio | Smti Shakya</title>
+    <meta name="description" content="Portfolio of Smiti Shakya">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Maven+Pro" />
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <nav role="navigation">
-      <h3>Smiti Shakya</h3>
-      <ul>
-        <li><a href="index.html#section2">Projects</a></li>
-        <li><a href="index.html#section1">About</a></li>
-        <li><a href="index.html#hero">Home</a></li>
-      </ul>
-    </nav>
-    <main role="main">
-        <header role="banner" id="hero">
-            <h1>Smiti Shakya</h1>
-            <p>Hello, My name is Smiti. I am a web developer. Imagination to create is my passion.</p>
-            <button>Learn More</button>
+    <ul class="nav-bar">
+      <li class="nav-title"><a href="#hero">Smiti Shakya</a></li>
+      <li class="nav-li"><a href="#section2">Projects</a></li>  
+      <li class="nav-li"><a href="#section1">About</a></li>
+          
+    </ul>
+    <main>
+        <header id="hero">
+            <h1 aria-live="polite">Smiti Shakya</h1>
+            <h4>Hello, My name is Smiti Shakya. I am a web developer. Imagination to create is my passion.</h4>
+            <button class=" button aboutme-section">Learn More</button>
         </header>
 
-        <section id="section1">
-            <p>I am a web developer and recent graduate from Southwest Minnesota State University with a Bachelor of Science in Computer Science. I am currently a student of Engineering Immersion program at Thinkful. My desire to learn and grow my skills as a start of my career in tech. I have a curious mind about knowing how things are created and can work.</p>
-            <p>I also believe in taking digital detox through exploring places or it can as simply being in nature to see the beauty and feel the calmness.</p>
-            <button>View My Work</button>
+        <section id="section1" aria-live="polite">
+            <h4>I am an aspiring web developer with a strong foundation of object-oriented programming and web design/development practices. </h4>
+            <p>I recently graduated from Southwest Minnesota State University with a Bachelor of Science in Computer Science. During my senior year 
+            in college, I got interested in learning how to build a website and started learning from basic HTML, CSS, and Javascript. Later, I learned 
+            basics in Angular, PHP, and SQL. My interest in web development and my academic background led me to be a student of Engineering Immersion 
+            program at Thinkful.</p>
+            <p>When I am not working, I believe in taking digital detox through exploring new places or it can as simply being in nature to see the beauty and 
+            feel the calmness. I think I choose to do things which feels good for my mental health like doing yoga and eating a delicious meal. Also, I love 
+            to do canvas painting and listen to music are my other interest.  </p>
+            <button class=" button project-section">View my work</button>
         </section>
 
         <section id="section2">
-            <h4>Chemsitry Knowledge Quiz</h4>
-            <img src="Quizapp-image.png" alt="chemistry-quiz-app" class="chemistryquiz-image" width="350" height="300">
-            <p> Basic chemistry element questions with total 6 multiple choice questions.</p>
-            <p>You can see your current score and correct answer gets displayed if chosen wrong
-            to learn and try again!</p>
-            <button>Demo</button>
-            <button>GitHub</button>
-
-        </section>
+          <h3>Chemsitry Knowledge Quiz</h3>
+          <a target="_blank" href=" https://thinkful-ei-gecko.github.io/smiti-steven-chemistquizapp/">
+            <img src="images/Quizapp-image.png" alt="chemistry-quiz-app" class="chemistryquiz-image" >
+          </a>          
+          <p>Basic chemistry element questions with total 6 multiple choice questions. This quiz is for learning 
+           about basic chemsitry elements.
+           You can see your current score and correct answer which gets displayed if chosen wrong to learn and try
+          again!</p>
+          <a target="_blank"  class="button project-button" href="https://thinkful-ei-gecko.github.io/smiti-steven-chemistquizapp/">Demo</a>
+          <a target="_blank"  class="button project-button" href="https://github.com/thinkful-ei-gecko/smiti-steven-chemistquizapp">GitHub</a>               
+            
+          <div class="section2-ul">
+            <h5>Technologies Used</h5>                   
+            <i class="sec2-li"><img alt="html icon" src="images/html-icon.png" class="section2-icon"></i>
+            <i class="sec2-li"><img alt="css icon" src="images/css-icon.png" class="section2-icon"></i>
+            <i class="sec2-li third-li"><img alt="jquery icon" src="images/jquery-icon.png" class="section2-icon"></i>
+            </div>
+          </div>                    
+          </section>
+          <section id="section2">
+            <h3>Skincare Discovery</h3>
+            <a target="_blank" href="https://skincare-discovery.smitishk12.now.sh/">
+              <img src="images/skincarediscovery-image.png" alt="skincare-discovery-app" class="skincarediscovery-image" >
+            </a>          
+            <p>Skincare Discovery was created to solve the issue of most people using the wrong products on their skin. With this 
+              application it lets your first find out your skintype and lets you build a 5 Steps Skin Care Routine based on your skin type. 
+              Also made for all user to have a easy experience in finding the right product for their skin within their price point.</p>
+            <a target="_blank"  class="button project-button" href="https://skincare-discovery.smitishk12.now.sh/">Demo</a>
+            <a target="_blank"  class="button project-button" href="https://github.com/smitishakya/skincare-discovery">GitHub</a>               
+              
+            <div class="section2-ul">
+              <h5>Technologies Used</h5>                   
+              <i class="sec2-li"><img alt="html icon" src="images/html-icon.png" class="section2-icon"></i>
+              <i class="sec2-li"><img alt="css icon" src="images/css-icon.png" class="section2-icon"></i>
+              <i class="sec2-li third-li"><img alt="react icon" src="images/react-icon.png" class="section2-icon"></i>
+              </div>
+            </div>                    
+            </section>
     </main>
-    <footer role="content-info">
+    <footer aria-live="polite">
       <h4>Contact Me</h4>
       <ul class="footer-ul">
-        <li><a href="mailto:smitishk12@gmail.com/" target="_blank"><img src="mail-icon.png" class="contact-icon"></a></li>
-        <li><a href="https://github.com/smitishakya/" target="_blank" ><img src="github-icon.png" class="contact-icon"></a></li>
-        <li><a href="https://www.linkedin.com/in/smitishakya/" target="_blank" ><img src="linkedin-icon.png" class="contact-icon"></a></li>
-      </ul>
-      
+        <li class="foot-li"><a href="https://www.linkedin.com/in/smitishakya/" target="_blank" ><img src="images/linkedin-icon.png" class="contact-icon" alt="linkedin icon"></a></li>
+        <li class="foot-li"><a href="https://github.com/smitishakya/" target="_blank" ><img src="images/github-icon.png" class="contact-icon" alt="githib icon"></a></li>
+        <li class="foot-li"><a href="mailto:smitishk12@gmail.com/" target="_blank"><img src="images/mail-icon.png" class="contact-icon" alt="email icon"></a></li>        
+      </ul>     
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
