@@ -13,13 +13,13 @@ $("a[href^='#']").click(function(e) {
 $('.aboutme-section').click(function (){
   $('html, body').animate({
     scrollTop: $('#section1').offset().top
-  }, 1000);
+  }, 1600);
 });
 
 $('.project-section').click(function (){
   $('html, body').animate({
     scrollTop: $('#section2').offset().top
-  }, 1000);
+  }, 1400);
 });
 
 
