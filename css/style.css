@@ -93,10 +93,15 @@ section {
     color: black;
     
 }
+.portrait-image{
+    height: 300px;
+    border: 2px solid #6B5B95;
+}
 
 p{
     font-size: 18px;
     padding: 10px;
+    text-align: left;
 }
 
 .sub-head{
@@ -228,5 +233,9 @@ footer {
 
     .project-image{
         width: 50%;
+    }
+    .portrait-image{
+        height: 500px;
+        
     }
 }
